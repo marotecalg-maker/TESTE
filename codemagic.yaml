@@ -1,0 +1,41 @@
+workflows:
+  testFlight:
+    name: ELBOUNI
+    integrations:
+      app_store_connect: ELBOUNI
+    environment:
+      flutter: stable
+      ios_signing:
+        bundle_identifier: com.rosoume.kioku
+        provisioning_profiles:
+          - Provisioning_rosome
+        certificates:
+          - certificate
+    scripts:
+      - name: Get Flutter packages
+        script: flutter packages pub get
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Determine next build number
+        script: |
+          #!/bin/sh
+          set -e
+          APP_APPLE_ID=$(app-store-connect apps list --bundle-id-identifier="com.rosoume.kioku" --json | jq -r '.[0].id')
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-build-number "$APP_APPLE_ID" --all-versions)
+          NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
+          echo "Using next build number: $NEW_BUILD_NUMBER"
+          echo "NEW_BUILD_NUMBER=$NEW_BUILD_NUMBER" >> $CM_ENV
+      - name: Build IPA
+        script: flutter build ipa --release --build-number=$NEW_BUILD_NUMBER --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - a.elbouni1996@gmail.com
+        notify:
+          success: true
+          failure: true
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true

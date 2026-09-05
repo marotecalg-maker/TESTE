@@ -1,0 +1,1288 @@
+[
+  {
+    "mal_id": 1,
+    "title": "Cowboy Bebop",
+    "title_english": "Cowboy Bebop",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/19644t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/19644l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/19644t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/19644l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/gY5nDXOtv_o?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug use, and theft, and intergalactic outlaws are hunted by a growing number of tough bounty hunters.\n\nSpike Spiegel and Jet Black pursue criminals throughout space to make a humble living. Beneath his goofy and aloof demeanor, Spike is haunted by the weight of his violent past. Meanwhile, Jet manages his own troubled memories while taking care of Spike and the Bebop, their ship. The duo is joined by the beautiful con artist Faye Valentine, odd child Edward Wong Hau Pepelu Tivrusky IV, and Ein, a bioengineered Welsh corgi.\n\nWhile developing bonds and working to catch a colorful cast of criminals, the Bebop crew's lives are disrupted by a menace from Spike's past. As a rival's maniacal plot continues to unravel, Spike must choose between life with his newfound family or revenge for his old wounds.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "score": 8.75,
+    "rank": 49,
+    "popularity": 41,
+    "members": 2071833,
+    "year": 1998,
+    "season": "spring",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 46,
+        "type": "anime",
+        "name": "Award Winning",
+        "url": "https://myanimelist.net/anime/genre/46/Award_Winning"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ]
+  },
+  {
+    "mal_id": 11061,
+    "title": "Hunter x Hunter (2011)",
+    "title_english": "Hunter x Hunter",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1337/99013.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/D9iTQRB4XRk?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Hunters devote themselves to accomplishing hazardous tasks, all from traversing the world's uncharted territories to locating rare items and monsters. Before becoming a Hunter, one must pass the Hunter Examination—a high-risk selection process in which most applicants end up handicapped or worse, deceased.\n\nAmbitious participants who challenge the notorious exam carry their own reason. What drives 12-year-old Gon Freecss is finding Ging, his father and a Hunter himself. Believing that he will meet his father by becoming a Hunter, Gon takes the first step to walk the same path.\n\nDuring the Hunter Examination, Gon befriends the medical student Leorio Paladiknight, the vindictive Kurapika, and ex-assassin Killua Zoldyck. While their motives vastly differ from each other, they band together for a common goal and begin to venture into a perilous world.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 148,
+    "status": "Finished Airing",
+    "score": 9.03,
+    "rank": 11,
+    "popularity": 8,
+    "members": 3223556,
+    "year": 2011,
+    "season": "fall",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Madhouse",
+        "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+      }
+    ]
+  },
+  {
+    "mal_id": 1535,
+    "title": "Death Note",
+    "title_english": "Death Note",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1079/138100t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1079/138100l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1079/138100.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1079/138100t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1079/138100l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/Vt_3c8BgxV4?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging gambling den. The ingenious 17-year-old Japanese student Light Yagami and sadistic god of death Ryuk share one belief: their worlds are rotten.\n\nFor his own amusement, Ryuk drops his Death Note into the human world. Light stumbles upon it, deeming the first of its rules ridiculous: the human whose name is written in this note shall die. However, the temptation is too great, and Light experiments by writing a felon's name, which disturbingly enacts his first murder.\n\nAware of the terrifying godlike power that has fallen into his hands, Light—under the alias Kira—follows his wicked sense of justice with the ultimate goal of cleansing the world of all evil-doers. The meticulous mastermind detective L is already on his trail, but as Light's brilliance rivals L's, the grand chase for Kira turns into an intense battle of wits that can only end when one of them is dead.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 37,
+    "status": "Finished Airing",
+    "score": 8.62,
+    "rank": 99,
+    "popularity": 2,
+    "members": 4333280,
+    "year": 2006,
+    "season": "fall",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Madhouse",
+        "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+      }
+    ]
+  },
+  {
+    "mal_id": 16498,
+    "title": "Shingeki no Kyojin",
+    "title_english": "Attack on Titan",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/47347t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/47347.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/47347t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/47347l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/LHtdKWJdif4?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal Titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.\n\nAfter witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 25,
+    "status": "Finished Airing",
+    "score": 8.57,
+    "rank": 125,
+    "popularity": 1,
+    "members": 4395758,
+    "year": 2013,
+    "season": "spring",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 46,
+        "type": "anime",
+        "name": "Award Winning",
+        "url": "https://myanimelist.net/anime/genre/46/Award_Winning"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 858,
+        "type": "anime",
+        "name": "Wit Studio",
+        "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+      }
+    ]
+  },
+  {
+    "mal_id": 1735,
+    "title": "Naruto: Shippuuden",
+    "title_english": "Naruto Shippuden",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1565/111305.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/1dy2zPPrKD0?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.\n \nAlthough Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 500,
+    "status": "Finished Airing",
+    "score": 8.29,
+    "rank": 341,
+    "popularity": 15,
+    "members": 2770699,
+    "year": 2007,
+    "season": "winter",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Studio Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Studio_Pierrot"
+      }
+    ]
+  },
+  {
+    "mal_id": 20,
+    "title": "Naruto",
+    "title_english": "Naruto",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1141/142503.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1141/142503.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Twelve years ago, a colossal demon fox terrorized the world. During the monster's attack on the Hidden Leaf Village, the Hokage—the village's leader and most powerful ninja—sacrifices himself to seal the beast inside a newborn, relieving civilization from destruction while dooming the baby to a lonely life.\n\nNow, after years of being shunned and bullied, Naruto Uzumaki pesters the village with elaborate pranks and vandalism. Despite these antics, he works hard to achieve his dream: to become the Hokage and earn the acknowledgement of those who have mistreated him for his entire life. Naruto joins Team 7, a ninja squad made up of two of his peers—prodigy Sasuke Uchiha and clever Sakura Haruno.\n\nUnder the aloof Kakashi Hatake's leadership, Team 7 takes on a series of difficult missions, forcing its members to grow in strength and comradery despite their many differences. Naruto strives to stand out in his rivalry with Sasuke and earn the romantic affection of Sakura. But as the trio brush against danger and death, their tragic pasts threaten to tear them apart.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 220,
+    "status": "Finished Airing",
+    "score": 8.02,
+    "rank": 724,
+    "popularity": 9,
+    "members": 3139379,
+    "year": 2002,
+    "season": "fall",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Studio Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Studio_Pierrot"
+      }
+    ]
+  },
+  {
+    "mal_id": 21,
+    "title": "One Piece",
+    "title_english": "One Piece",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1244/138851t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1244/138851.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1244/138851t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1244/138851l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/-tviZNY6CSw?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in battle, Luffy is a pirate himself who resolutely pursues the coveted One Piece treasure and the King of the Pirates title that comes with it.\n\nThe late King of the Pirates, Gol D. Roger, stirred up the world before his death by disclosing the whereabouts of his hoard of riches and daring everyone to obtain it. Ever since then, countless powerful pirates have sailed dangerous seas for the prized One Piece only to never return. Although Luffy lacks a crew and a proper ship, he is endowed with a superhuman ability and an unbreakable spirit that make him not only a formidable adversary but also an inspiration to many.\n\nAs he faces numerous challenges with a big smile on his face, Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": null,
+    "status": "Currently Airing",
+    "score": 8.73,
+    "rank": 56,
+    "popularity": 17,
+    "members": 2705940,
+    "year": 1999,
+    "season": "fall",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ]
+  },
+  {
+    "mal_id": 30276,
+    "title": "One Punch Man",
+    "title_english": "One-Punch Man",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/76049t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/76049l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/76049.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/76049t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/76049l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/ExUMiF1L0HA?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "The seemingly unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, Saitama relentlessly trained for three years, losing all of his hair in the process. Now, Saitama is so powerful, he can defeat any enemy with just one punch. However, having no one capable of matching his strength has led Saitama to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.\n\nOne day, Saitama catches the attention of 19-year-old cyborg Genos, who witnesses his power and wishes to become Saitama's disciple. Genos proposes that the two join the Hero Association in order to become certified heroes that will be recognized for their positive contributions to society. Saitama, who is shocked that no one knows who he is, quickly agrees. Meeting new allies and taking on new foes, Saitama embarks on a new journey as a member of the Hero Association to experience the excitement of battle he once felt.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 12,
+    "status": "Finished Airing",
+    "score": 8.47,
+    "rank": 180,
+    "popularity": 4,
+    "members": 3540140,
+    "year": 2015,
+    "season": "fall",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Madhouse",
+        "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+      }
+    ]
+  },
+  {
+    "mal_id": 31964,
+    "title": "Boku no Hero Academia",
+    "title_english": "My Hero Academia",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/78745t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/78745l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/78745.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/78745t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/78745l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/D5fYOnwYkj4?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "The appearance of \"quirks,\" newly discovered super powers, has been steadily increasing over the years, with 80 percent of humanity possessing various abilities from manipulation of elements to shapeshifting. This leaves the remainder of the world completely powerless, and Izuku Midoriya is one such individual.\n\nSince he was a child, the ambitious middle schooler has wanted nothing more than to be a hero. Izuku's unfair fate leaves him admiring heroes and taking notes on them whenever he can. But it seems that his persistence has borne some fruit: Izuku meets the number one hero and his personal idol, All Might. All Might's quirk is a unique ability that can be inherited, and he has chosen Izuku to be his successor!\n\nEnduring many months of grueling training, Izuku enrolls in UA High, a prestigious high school famous for its excellent hero training program, and this year's freshmen look especially promising. With his bizarre but talented classmates and the looming threat of a villainous organization, Izuku will soon learn what it really means to be a hero.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 13,
+    "status": "Finished Airing",
+    "score": 7.82,
+    "rank": 1106,
+    "popularity": 6,
+    "members": 3329976,
+    "year": 2016,
+    "season": "spring",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Bones",
+        "url": "https://myanimelist.net/anime/producer/4/Bones"
+      }
+    ]
+  },
+  {
+    "mal_id": 37521,
+    "title": "Vinland Saga",
+    "title_english": null,
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1500/103005.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1500/103005t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1500/103005l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1500/103005.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1500/103005t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1500/103005l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/f8JrZ7Q_p-8?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, \"You have no enemies, nobody does. There is nobody who it's okay to hurt,\" as he grew, Thorfinn knew that nothing was further from the truth.\n\nThe war between England and the Danes grows worse with each passing year. Death has become commonplace, and the viking mercenaries are loving every moment of it. Allying with either side will cause a massive swing in the balance of power, and the vikings are happy to make names for themselves and take any spoils they earn along the way. Among the chaos, Thorfinn must take his revenge and kill Askeladd, the man who murdered his father. The only paradise for the vikings, it seems, is the era of war and death that rages on.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 24,
+    "status": "Finished Airing",
+    "score": 8.78,
+    "rank": 44,
+    "popularity": 61,
+    "members": 1845349,
+    "year": 2019,
+    "season": "summer",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 858,
+        "type": "anime",
+        "name": "Wit Studio",
+        "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+      }
+    ]
+  },
+  {
+    "mal_id": 38524,
+    "title": "Shingeki no Kyojin Season 3 Part 2",
+    "title_english": "Attack on Titan Season 3 Part 2",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1517/100633.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/hKHepjfj5Tw?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Seeking to restore humanity's diminishing hope, the Survey Corps embark on a mission to retake Wall Maria, where the battle against the merciless \"Titans\" takes the stage once again.\n\nReturning to the tattered Shiganshina District that was once his home, Eren Yeager and the Corps find the town oddly unoccupied by Titans. Even after the outer gate is plugged, they strangely encounter no opposition. The mission progresses smoothly until Armin Arlert, highly suspicious of the enemy's absence, discovers distressing signs of a potential scheme against them. \n\nShingeki no Kyojin Season 3 Part 2 follows Eren as he vows to take back everything that was once his. Alongside him, the Survey Corps strive—through countless sacrifices—to carve a path towards victory and uncover the secrets locked away in the Yeager family's basement.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 10,
+    "status": "Finished Airing",
+    "score": 9.05,
+    "rank": 9,
+    "popularity": 20,
+    "members": 2618080,
+    "year": 2019,
+    "season": "spring",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 858,
+        "type": "anime",
+        "name": "Wit Studio",
+        "url": "https://myanimelist.net/anime/producer/858/Wit_Studio"
+      }
+    ]
+  },
+  {
+    "mal_id": 40028,
+    "title": "Shingeki no Kyojin: The Final Season",
+    "title_english": "Attack on Titan: Final Season",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1000/110531.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1000/110531t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1000/110531l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1000/110531.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1000/110531t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1000/110531l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/SlNpRThS9t8?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Gabi Braun and Falco Grice have been training their entire lives to inherit one of the seven Titans under Marley's control and aid their nation in eradicating the Eldians on Paradis. However, just as all seems well for the two cadets, their peace is suddenly shaken by the arrival of Eren Yeager and the remaining members of the Survey Corps.\n\nHaving finally reached the Yeager family basement and learned about the dark history surrounding the Titans, the Survey Corps has at long last found the answer they so desperately fought to uncover. With the truth now in their hands, the group set out for the world beyond the walls.\n\nIn Shingeki no Kyojin: The Final Season, two utterly different worlds collide as each party pursues its own agenda in the long-awaited conclusion to Paradis' fight for freedom.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 16,
+    "status": "Finished Airing",
+    "score": 8.79,
+    "rank": 40,
+    "popularity": 29,
+    "members": 2312278,
+    "year": 2021,
+    "season": "winter",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 569,
+        "type": "anime",
+        "name": "MAPPA",
+        "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+      }
+    ]
+  },
+  {
+    "mal_id": 44511,
+    "title": "Chainsaw Man",
+    "title_english": "Chainsaw Man",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1806/126216t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1806/126216.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1806/126216t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1806/126216l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/jk7QSGwupPA?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Denji is robbed of a normal teenage life, left with nothing but his deadbeat father's overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza's pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji's brutal, untimely death, crushing all hope of him ever achieving happiness.\n\nRemarkably, an old contract allows Pochita to merge with the deceased Denji and bestow devil powers on him, changing him into a hybrid able to transform his body parts into chainsaws. Because Denji's new abilities pose a significant risk to society, the Public Safety Bureau's elite devil hunter Makima takes him in, letting him live as long as he obeys her command. Guided by the promise of a content life alongside an attractive woman, Denji devotes everything and fights with all his might to make his naive dreams a reality.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 12,
+    "status": "Finished Airing",
+    "score": 8.42,
+    "rank": 208,
+    "popularity": 47,
+    "members": 1999400,
+    "year": 2022,
+    "season": "fall",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 569,
+        "type": "anime",
+        "name": "MAPPA",
+        "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+      }
+    ]
+  },
+  {
+    "mal_id": 918,
+    "title": "Gintama",
+    "title_english": "Gintama",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/73274.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/73274t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/73274l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/73274.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/73274t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/73274l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Edo is a city that was home to the vigor and ambition of samurai across the country. However, following feudal Japan's surrender to powerful aliens known as the \"Amanto,\" those aspirations now seem unachievable. With the once-influential shogunate rebuilt as a puppet government, a new law is passed that promptly prohibits all swords in public. \n\nEnter Gintoki Sakata, an eccentric silver-haired man who always carries around a wooden sword and maintains his stature as a samurai despite the ban. As the founder of Yorozuya, a small business for odd jobs, Gintoki often embarks on endeavors to help other people—though usually in rather strange and unforeseen ways. \n\nAssisted by Shinpachi Shimura, a boy with glasses supposedly learning the way of the samurai; Kagura, a tomboyish girl with superhuman strength and an endless appetite; and Sadaharu, their giant pet dog who loves biting on people's heads, the Yorozuya encounter anything from alien royalty to scuffles with local gangs in the ever-changing world of Edo.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 201,
+    "status": "Finished Airing",
+    "score": 8.93,
+    "rank": 21,
+    "popularity": 148,
+    "members": 1161866,
+    "year": 2006,
+    "season": "spring",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ]
+  },
+  {
+    "mal_id": 52991,
+    "title": "Sousou no Frieren",
+    "title_english": "Frieren: Beyond Journey's End",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1015/138006.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1015/138006.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1015/138006l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/ZEkwCGJ3o7M?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "During their decade-long quest to defeat the Demon King, the members of the hero's party—Himmel himself, the priest Heiter, the dwarf warrior Eisen, and the elven mage Frieren—forge bonds through adventures and battles, creating unforgettable precious memories for most of them.\n\nHowever, the time that Frieren spends with her comrades is equivalent to merely a fraction of her life, which has lasted over a thousand years. When the party disbands after their victory, Frieren casually returns to her \"usual\" routine of collecting spells across the continent. Due to her different sense of time, she seemingly holds no strong feelings toward the experiences she went through.\n\nAs the years pass, Frieren gradually realizes how her days in the hero's party truly impacted her. Witnessing the deaths of two of her former companions, Frieren begins to regret having taken their presence for granted; she vows to better understand humans and create real personal connections. Although the story of that once memorable journey has long ended, a new tale is about to begin.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 28,
+    "status": "Finished Airing",
+    "score": 9.26,
+    "rank": 1,
+    "popularity": 102,
+    "members": 1476850,
+    "year": 2023,
+    "season": "fall",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 46,
+        "type": "anime",
+        "name": "Award Winning",
+        "url": "https://myanimelist.net/anime/genre/46/Award_Winning"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Madhouse",
+        "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+      }
+    ]
+  },
+  {
+    "mal_id": 61316,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+    "title_english": "Re:ZERO -Starting Life in Another World- Season 4",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1540/155824.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1540/155824t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1540/155824l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1540/155824.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1540/155824t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1540/155824l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/jVl4bY81iIs?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "In the deadly battle at the Watergate City of Priestella, Subaru and his allies barely emerged victorious—but their triumph came at a great cost. Through the \"Authority of Gluttony,\" Rem was put into suspended animation, while Crusch's memories and even Julius’s name were devoured. As he searches for a way to save them, Subaru learns of the \"Sage\" Shaula—an all-seeing being said to possess every form of knowledge. His next destination is the Pleiades Watchtower, home to the Sage, the farthest tower standing in the vast, uncharted desert known as the Auguria Dunes—a place so perilous that even the mightiest \"Sword Saint,\" Reinhard, failed to conquer it. The fury of nature, unknown magical beasts, and unimaginable dangers lie ahead. Together with his friends, Subaru embarks on a life-risking journey to reclaim what was lost.\n\n(Source: Kadokawa, edited)",
+    "type": "TV",
+    "episodes": 19,
+    "status": "Currently Airing",
+    "score": 9.18,
+    "rank": 2,
+    "popularity": 986,
+    "members": 287656,
+    "year": 2026,
+    "season": "spring",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 314,
+        "type": "anime",
+        "name": "White Fox",
+        "url": "https://myanimelist.net/anime/producer/314/White_Fox"
+      }
+    ]
+  },
+  {
+    "mal_id": 5114,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "title_english": "Fullmetal Alchemist: Brotherhood",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1208/94745.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/1ac3_YdSSy0?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor.\n\nThe brothers are rescued by their neighbor Pinako Rockbell and her granddaughter Winry. Known as a bio-mechanical engineering prodigy, Winry creates prosthetic limbs for Edward by utilizing \"automail,\" a tough, versatile metal used in robots and combat armor. After years of training, the Elric brothers set off on a quest to restore their bodies by locating the Philosopher's Stone—a powerful gem that allows an alchemist to defy the traditional laws of Equivalent Exchange.\n\nAs Edward becomes an infamous alchemist and gains the nickname \"Fullmetal,\" the boys' journey embroils them in a growing conspiracy that threatens the fate of the world.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 64,
+    "status": "Finished Airing",
+    "score": 9.11,
+    "rank": 3,
+    "popularity": 3,
+    "members": 3709235,
+    "year": 2009,
+    "season": "spring",
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Bones",
+        "url": "https://myanimelist.net/anime/producer/4/Bones"
+      }
+    ]
+  },
+  {
+    "mal_id": 61469,
+    "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+    "title_english": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1448/154111.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1448/154111t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1448/154111l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1448/154111.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1448/154111t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1448/154111l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/TWw06YDOQy0?si=SxzUyy3Q-7R6PxzG?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.\n\nThe youthful Johnny Joestar, a crippled former horse racer, has come to San Diego to watch the start of the race. There he encounters Gyro Zeppeli, a racer with two steel balls at his waist instead of a gun. Johnny witnesses Gyro using one of his steel balls to unleash a fantastical power, compelling a man to fire his gun at himself during a duel. In the midst of the action, Johnny happens to touch the steel ball and feels a power surging through his legs, allowing him to stand up for the first time in two years. Vowing to find the secret of the steel balls, Johnny decides to compete in the race, and so begins his bizarre adventure across America on the Steel Ball Run.\n\n[Written by MAL Rewrite]",
+    "type": "ONA",
+    "episodes": null,
+    "status": "Currently Airing",
+    "score": 9.1,
+    "rank": 4,
+    "popularity": 1295,
+    "members": 220403,
+    "year": null,
+    "season": null,
+    "rating": "R - 17+ (violence & profanity)",
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      },
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 287,
+        "type": "anime",
+        "name": "David Production",
+        "url": "https://myanimelist.net/anime/producer/287/David_Production"
+      }
+    ]
+  },
+  {
+    "mal_id": 9253,
+    "title": "Steins;Gate",
+    "title_english": "Steins;Gate",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1935/127974.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": "https://www.youtube-nocookie.com/embed/27OZc-ku6is?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "synopsis": "Eccentric scientist Rintarou Okabe has a never-ending thirst for scientific exploration. Together with his ditzy but well-meaning friend Mayuri Shiina and his roommate Itaru Hashida, Okabe founds the Future Gadget Laboratory in the hopes of creating technological innovations that baffle the human psyche. Despite claims of grandeur, the only notable \"gadget\" the trio have created is a microwave that has the mystifying power to turn bananas into green goo.\n\nHowever, when Okabe attends a conference on time travel, he experiences a series of strange events that lead him to believe that there is more to the \"Phone Microwave\" gadget than meets the eye. Apparently able to send text messages into the past using the microwave, Okabe dabbles further with the \"time machine,\" attracting the ire and attention of the mysterious organization SERN.\n\nDue to the novel discovery, Okabe and his friends find themselves in an ever-present danger. As he works to mitigate the damage his invention has caused to the timeline, Okabe fights a battle to not only save his loved ones but also to preserve his degrading sanity.\n\n[Written by MAL Rewrite]",
+    "type": "TV",
+    "episodes": 24,
+    "status": "Finished Airing",
+    "score": 9.07,
+    "rank": 5,
+    "popularity": 14,
+    "members": 2832201,
+    "year": 2011,
+    "season": "spring",
+    "rating": "PG-13 - Teens 13 or older",
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      },
+      {
+        "mal_id": 41,
+        "type": "anime",
+        "name": "Suspense",
+        "url": "https://myanimelist.net/anime/genre/41/Suspense"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 314,
+        "type": "anime",
+        "name": "White Fox",
+        "url": "https://myanimelist.net/anime/producer/314/White_Fox"
+      }
+    ]
+  }
+]
