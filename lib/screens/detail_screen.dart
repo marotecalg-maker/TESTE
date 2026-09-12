@@ -184,7 +184,7 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
                       child: ListView.separated(
                         scrollDirection: Axis.horizontal,
                         itemCount: _related.length,
-                        separatorBuilder: (_, _) => const SizedBox(width: 14),
+                        separatorBuilder: (_, __) => const SizedBox(width: 14),
                         itemBuilder: (_, i) => PosterTile(anime: _related[i]),
                       ),
                     ),
@@ -250,7 +250,7 @@ class _StatsRow extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final items = <(IconData, String, String)>[
-      (Icons.star_rounded, anime.score?.toStringAsFixed(1) ?? 'â€”',
+      (Icons.star_rounded, anime.score?.toStringAsFixed(1) ?? '—',
           l.t('detail_score')),
       (Icons.tv_rounded, anime.episodesLabel, l.t('detail_episodes')),
       (Icons.calendar_today_rounded, anime.yearSeasonLabel, l.t('detail_aired')),
@@ -290,7 +290,7 @@ class _StatsRow extends StatelessWidget {
   }
 
   static String _compact(int? n) {
-    if (n == null) return 'â€”';
+    if (n == null) return '—';
     if (n >= 1000000) return '${(n / 1000000).toStringAsFixed(1)}M';
     if (n >= 1000) return '${(n / 1000).toStringAsFixed(0)}K';
     return '$n';

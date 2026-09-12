@@ -53,7 +53,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
                   : ListView.separated(
                       padding: const EdgeInsets.fromLTRB(20, 10, 20, 100),
                       itemCount: items.length,
-                      separatorBuilder: (_, _) => const SizedBox(height: 12),
+                      separatorBuilder: (_, __) => const SizedBox(height: 12),
                       itemBuilder: (_, i) => _LibraryRow(tracked: items[i]),
                     ),
             ),

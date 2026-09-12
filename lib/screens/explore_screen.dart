@@ -185,7 +185,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 20),
         itemCount: GenreFilter.all.length,
-        separatorBuilder: (_, _) => const SizedBox(width: 8),
+        separatorBuilder: (_, __) => const SizedBox(width: 8),
         itemBuilder: (_, i) {
           final g = GenreFilter.all[i];
           return GenreChip(
@@ -271,7 +271,7 @@ class _Rail extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       itemCount: items!.length,
-                      separatorBuilder: (_, _) => const SizedBox(width: 14),
+                      separatorBuilder: (_, __) => const SizedBox(width: 14),
                       itemBuilder: (_, i) => PosterTile(anime: items![i]),
                     ),
         ),
@@ -285,8 +285,8 @@ class _Rail extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       padding: const EdgeInsets.symmetric(horizontal: 20),
       itemCount: 4,
-      separatorBuilder: (_, _) => const SizedBox(width: 14),
-      itemBuilder: (_, _) => SizedBox(
+      separatorBuilder: (_, __) => const SizedBox(width: 14),
+      itemBuilder: (_, __) => SizedBox(
         width: 132,
         child: AspectRatio(
           aspectRatio: 2 / 3,

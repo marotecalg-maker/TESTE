@@ -9,7 +9,7 @@ import '../services/library_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/ui_kit.dart';
 
-/// Kioku Aura â€” the signature "taste DNA" reveal screen.
+/// Kioku Aura — the signature "taste DNA" reveal screen.
 class AuraScreen extends StatefulWidget {
   const AuraScreen({super.key});
 
@@ -223,7 +223,7 @@ class _AuraScreenState extends State<AuraScreen>
       );
 }
 
-/// The animated aura â€” a slowly rotating sweep-gradient orb with a soft glow.
+/// The animated aura — a slowly rotating sweep-gradient orb with a soft glow.
 class _AuraOrb extends StatelessWidget {
   final Aura aura;
   final Animation<double> spin;

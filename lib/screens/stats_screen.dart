@@ -87,7 +87,7 @@ class StatsScreen extends StatelessWidget {
           l.t('stat_completed'), AppColors.success),
       _StatData(
           Icons.star_rounded,
-          s.avgRating == 0 ? 'â€”' : s.avgRating.toStringAsFixed(1),
+          s.avgRating == 0 ? '—' : s.avgRating.toStringAsFixed(1),
           l.t('stat_avg'),
           AppColors.gold),
     ];

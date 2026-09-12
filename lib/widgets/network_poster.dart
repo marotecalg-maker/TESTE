@@ -29,8 +29,8 @@ class NetworkPoster extends StatelessWidget {
       width: width,
       height: height,
       fadeInDuration: const Duration(milliseconds: 250),
-      placeholder: (_, _) => const PosterShimmer(),
-      errorWidget: (_, _, _) => _fallback(),
+      placeholder: (_, __) => const PosterShimmer(),
+      errorWidget: (_, __, ___) => _fallback(),
     );
   }
 

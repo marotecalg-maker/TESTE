@@ -2,6 +2,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:kioku/screens/splash_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'l10n/app_localizations.dart';
@@ -72,7 +73,7 @@ class _KiokuAppState extends State<KiokuApp> {
               GlobalCupertinoLocalizations.delegate,
             ],
             builder: (context, child) {
-              // Keep the custom palette in sync with the resolved theme.
+              // Keep the custom palette in sync witha the resolved theme.
               AppColors.brightness = Theme.of(context).brightness;
               return child ?? const SizedBox.shrink();
             },
@@ -82,7 +83,7 @@ class _KiokuAppState extends State<KiokuApp> {
                 if (snapshot.connectionState != ConnectionState.done) {
                   return const SplashScreen();
                 }
-                return const HomeShell();
+                return const LoadingScreen();
               },
             ),
           );
@@ -92,7 +93,7 @@ class _KiokuAppState extends State<KiokuApp> {
   }
 }
 
-/// Branded launch screen â€” the Kioku wordmark on the dark canvas.
+/// Branded launch screen — the Kioku wordmark on the dark canvas.
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
