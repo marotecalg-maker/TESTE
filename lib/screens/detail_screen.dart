@@ -1,14 +1,17 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../config/app_config.dart' show contentUnlocked;
 import '../l10n/app_localizations.dart';
 import '../models/anime.dart';
 import '../models/catalog_anime.dart' as catalog;
 import '../models/watch_status.dart';
 import '../providers/anime_provider.dart';
 import '../services/jikan_api.dart';
+import '../services/ad_gate.dart';
 import '../services/library_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/ad_banner_slot.dart';
 import '../widgets/network_poster.dart';
 import '../widgets/poster_tile.dart';
 import '../widgets/episode_list.dart';
@@ -64,7 +67,12 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
       if (_anime.titleJapanese != null) _anime.titleJapanese!,
     ]);
 
+    // Streaming (Watch Now + episodes) needs a catalog match and the remote
+    // content gate to be open; otherwise the page is discover/track only.
+    final canWatch = watchMatch != null && contentUnlocked;
+
     return Scaffold(
+      bottomNavigationBar: const AdBannerSlot(slot: 'detail'),
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
@@ -104,7 +112,7 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
                 children: [
                   _StatsRow(anime: _anime),
                   const SizedBox(height: 20),
-                  if (watchMatch != null) ...[
+                  if (canWatch) ...[
                     WatchButton(
                       match: watchMatch,
                       heroTitle: _anime.displayTitle,
@@ -123,7 +131,10 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
                           icon: tracked
                               ? Icons.edit_rounded
                               : Icons.add_rounded,
-                          onTap: () => showTrackSheet(context, _anime),
+                          onTap: () {
+                            AdGate.onTap();
+                            showTrackSheet(context, _anime);
+                          },
                         ),
                       ),
                       const SizedBox(width: 12),
@@ -153,8 +164,11 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
                       secondChild: _SynopsisText(_anime.synopsis!),
                     ),
                     GestureDetector(
-                      onTap: () => setState(
-                          () => _synopsisExpanded = !_synopsisExpanded),
+                      onTap: () {
+                        AdGate.onTap();
+                        setState(
+                            () => _synopsisExpanded = !_synopsisExpanded);
+                      },
                       child: Padding(
                         padding: const EdgeInsets.only(top: 6),
                         child: Text(
@@ -168,7 +182,7 @@ class _AnimeDetailScreenState extends State<AnimeDetailScreen> {
                       ),
                     ),
                   ],
-                  if (watchMatch != null) ...[
+                  if (canWatch) ...[
                     const SizedBox(height: 28),
                     EpisodesSection(
                       match: watchMatch,
@@ -307,6 +321,7 @@ class _FavToggle extends StatelessWidget {
     final fav = lib.get(anime.id)?.favorite ?? false;
     return GestureDetector(
       onTap: () async {
+        AdGate.onTap();
         if (!lib.isTracked(anime.id)) {
           // Favouriting also adds it (as planned) so it has a home.
           await lib.addFromAnime(anime, WatchStatus.planned);

@@ -3,6 +3,7 @@
 import '../l10n/app_localizations.dart';
 import '../models/anime.dart';
 import '../services/jikan_api.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
 import '../widgets/network_poster.dart';
 import '../widgets/poster_tile.dart';
@@ -153,7 +154,10 @@ class _ExploreScreenState extends State<ExploreScreen> {
         child: TextField(
           controller: _searchCtrl,
           textInputAction: TextInputAction.search,
-          onSubmitted: _runSearch,
+          onSubmitted: (q) {
+            AdGate.onTap();
+            _runSearch(q);
+          },
           style: TextStyle(color: AppColors.textHigh),
           decoration: InputDecoration(
             hintText: AppLocalizations.of(context).t('search_hint'),
@@ -165,6 +169,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                     icon: Icon(Icons.close_rounded,
                         color: AppColors.textMid),
                     onPressed: () {
+                      AdGate.onTap();
                       _searchCtrl.clear();
                       _runSearch('');
                     },
@@ -191,7 +196,10 @@ class _ExploreScreenState extends State<ExploreScreen> {
           return GenreChip(
             g.name,
             selected: _genre?.id == g.id,
-            onTap: () => _selectGenre(g),
+            onTap: () {
+              AdGate.onTap();
+              _selectGenre(g);
+            },
           );
         },
       ),

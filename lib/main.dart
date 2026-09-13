@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 
 import 'l10n/app_localizations.dart';
 import 'providers/anime_provider.dart';
-import 'screens/home_shell.dart';
+import 'services/ad_gate.dart';
 import 'services/library_service.dart';
 import 'services/settings_controller.dart';
 import 'theme/app_theme.dart';
@@ -20,6 +20,9 @@ Future<void> main() async {
     statusBarIconBrightness: Brightness.light,
     statusBarBrightness: Brightness.dark,
   ));
+  // Portrait-only: the swipe deck is designed for it, and full-screen ads
+  // (app open in particular) render in whatever orientation the app allows.
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   await Hive.initFlutter();
   runApp(const KiokuApp());
 }
@@ -31,7 +34,7 @@ class KiokuApp extends StatefulWidget {
   State<KiokuApp> createState() => _KiokuAppState();
 }
 
-class _KiokuAppState extends State<KiokuApp> {
+class _KiokuAppState extends State<KiokuApp> with WidgetsBindingObserver {
   final LibraryService _library = LibraryService();
   final SettingsController _settings = SettingsController();
   final AnimeProvider _catalog = AnimeProvider();
@@ -41,11 +44,24 @@ class _KiokuAppState extends State<KiokuApp> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     // Load the bundled anime catalog (2,826 titles) off the main thread.
     // Fire-and-forget: it's only needed on the detail screen's Watch action,
     // so we don't hold the splash on the ~73 MB parse. AnimeProvider notifies
     // its listeners once the catalog is ready.
     _catalog.loadData();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    // App open ads go on every return to the foreground.
+    if (state == AppLifecycleState.resumed) AdGate.onAppResumed();
   }
 
   @override

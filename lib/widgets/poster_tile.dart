@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../models/anime.dart';
 import '../screens/detail_screen.dart';
+import '../services/ad_gate.dart';
 import '../services/library_service.dart';
 import '../theme/app_theme.dart';
 import 'network_poster.dart';
@@ -20,9 +21,12 @@ class PosterTile extends StatelessWidget {
         (l) => l.isTracked(anime.id));
 
     return GestureDetector(
-      onTap: () => Navigator.of(context).push(
-        MaterialPageRoute(builder: (_) => AnimeDetailScreen(anime: anime)),
-      ),
+      onTap: () {
+        AdGate.onTap();
+        Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => AnimeDetailScreen(anime: anime)),
+        );
+      },
       child: SizedBox(
         width: width,
         child: Column(

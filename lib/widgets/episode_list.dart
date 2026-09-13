@@ -5,6 +5,7 @@ import '../l10n/app_localizations.dart';
 import '../models/catalog_anime.dart';
 import '../providers/anime_provider.dart';
 import '../screens/kwik_player_screen.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
 
 /// Episodes that actually have at least one playable server (a real link).
@@ -15,6 +16,9 @@ List<Episode> playableEpisodes(Anime match) => (match.episodes ?? [])
 /// Opens the [KwikPlayerScreen] for one catalog [episode] and records it as
 /// watched. Shared by the inline list, the full-list screen and the "Watch
 /// now" button so playback behaves identically everywhere.
+///
+/// Playback sits behind a rewarded ad when one is loaded; the player opens
+/// once the ad closes (or right away when there is no ad).
 void openEpisodePlayer(
   BuildContext context, {
   required Anime match,
@@ -23,17 +27,22 @@ void openEpisodePlayer(
 }) {
   final l = AppLocalizations.of(context);
   final number = episode.number ?? '';
-  context
-      .read<AnimeProvider>()
-      .markEpisodeAsWatched(match.title ?? heroTitle, number);
-  Navigator.of(context).push(
-    MaterialPageRoute(
-      builder: (_) => KwikPlayerScreen(
-        servers: episode.servers,
-        title: '$heroTitle • ${l.t('episode')} $number',
+  final title = '$heroTitle • ${l.t('episode')} $number';
+  // Resolved up front: the continuation may run after the ad, when this
+  // context is no longer safe to read.
+  final provider = context.read<AnimeProvider>();
+  final navigator = Navigator.of(context);
+  AdGate.showRewardedThen(() {
+    provider.markEpisodeAsWatched(match.title ?? heroTitle, number);
+    navigator.push(
+      MaterialPageRoute(
+        builder: (_) => KwikPlayerScreen(
+          servers: episode.servers,
+          title: title,
+        ),
       ),
-    ),
-  );
+    );
+  });
 }
 
 /// An inline, always-visible list of an anime's playable episodes — each row
@@ -106,12 +115,15 @@ class EpisodesSection extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton.icon(
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) =>
-                      EpisodesScreen(match: match, heroTitle: heroTitle),
-                ),
-              ),
+              onPressed: () {
+                AdGate.onTap();
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) =>
+                        EpisodesScreen(match: match, heroTitle: heroTitle),
+                  ),
+                );
+              },
               style: OutlinedButton.styleFrom(
                 foregroundColor: AppColors.primaryBright,
                 side: BorderSide(color: AppColors.stroke),

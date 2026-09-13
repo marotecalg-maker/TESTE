@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../services/aura_engine.dart';
+import '../services/ad_gate.dart';
 import '../services/library_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/ui_kit.dart';
@@ -34,10 +35,13 @@ class StatsScreen extends StatelessWidget {
                     IconButton(
                       icon: Icon(Icons.settings_rounded,
                           color: AppColors.textMid),
-                      onPressed: () => Navigator.of(context).push(
-                        MaterialPageRoute(
-                            builder: (_) => const SettingsScreen()),
-                      ),
+                      onPressed: () {
+                        AdGate.onTap();
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                              builder: (_) => const SettingsScreen()),
+                        );
+                      },
                     ),
                   ],
                 ),
@@ -119,10 +123,12 @@ class _AuraCta extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // The reveal sits behind a rewarded ad.
+    final navigator = Navigator.of(context);
     return GestureDetector(
-      onTap: () => Navigator.of(context).push(
-        MaterialPageRoute(builder: (_) => const AuraScreen()),
-      ),
+      onTap: () => AdGate.showRewardedThen(() => navigator.push(
+            MaterialPageRoute(builder: (_) => const AuraScreen()),
+          )),
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(

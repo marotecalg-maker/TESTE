@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../l10n/app_localizations.dart';
 import '../services/settings_controller.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
 import '../main.dart' show KiokuMark;
 
@@ -27,7 +28,10 @@ class SettingsScreen extends StatelessWidget {
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_rounded),
-          onPressed: () => Navigator.pop(context),
+          onPressed: () {
+            AdGate.onTap();
+            Navigator.pop(context);
+          },
         ),
         title: Text(l.t('settings')),
       ),
@@ -54,13 +58,19 @@ class SettingsScreen extends StatelessWidget {
                     code: loc.languageCode,
                     label: l.t('lang_${loc.languageCode}'),
                     selected: settings.locale?.languageCode == loc.languageCode,
-                    onTap: () => settings.setLocale(loc),
+                    onTap: () {
+                      AdGate.onTap();
+                      settings.setLocale(loc);
+                    },
                   ),
                 _LangTile(
                   code: 'sys',
                   label: l.t('theme_system'),
                   selected: settings.locale == null,
-                  onTap: () => settings.setLocale(null),
+                  onTap: () {
+                    AdGate.onTap();
+                    settings.setLocale(null);
+                  },
                 ),
               ],
             ),
@@ -91,8 +101,11 @@ class SettingsScreen extends StatelessWidget {
           _card(
             child: GestureDetector(
               behavior: HitTestBehavior.opaque,
-              onTap: () => launchUrl(Uri.parse(privacyUrl),
-                  mode: LaunchMode.externalApplication),
+              onTap: () {
+                AdGate.onTap();
+                launchUrl(Uri.parse(privacyUrl),
+                    mode: LaunchMode.externalApplication);
+              },
               child: Row(
                 children: [
                   const Icon(Icons.privacy_tip_rounded,
@@ -114,8 +127,11 @@ class SettingsScreen extends StatelessWidget {
           _card(
             child: GestureDetector(
               behavior: HitTestBehavior.opaque,
-              onTap: () => launchUrl(Uri.parse(supportUrl),
-                  mode: LaunchMode.externalApplication),
+              onTap: () {
+                AdGate.onTap();
+                launchUrl(Uri.parse(supportUrl),
+                    mode: LaunchMode.externalApplication);
+              },
               child: Row(
                 children: [
                   const Icon(Icons.help_outline_rounded,
@@ -200,7 +216,10 @@ class _ThemeSelector extends StatelessWidget {
           for (final o in options)
             Expanded(
               child: GestureDetector(
-                onTap: () => settings.setThemeMode(o.$1),
+                onTap: () {
+                  AdGate.onTap();
+                  settings.setThemeMode(o.$1);
+                },
                 child: AnimatedContainer(
                   duration: const Duration(milliseconds: 180),
                   padding: const EdgeInsets.symmetric(vertical: 10),

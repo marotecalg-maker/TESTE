@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../services/aura_engine.dart';
+import '../services/ad_gate.dart';
 import '../services/library_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/ui_kit.dart';
@@ -105,7 +106,10 @@ class _AuraScreenState extends State<AuraScreen>
         children: [
           IconButton(
             icon: const Icon(Icons.arrow_back_rounded),
-            onPressed: () => Navigator.pop(context),
+            onPressed: () {
+              AdGate.onTap();
+              Navigator.pop(context);
+            },
           ),
           Text(l.t('your_aura'), style: AppTheme.display(22)),
         ],

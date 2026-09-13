@@ -2,7 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
+import '../widgets/ad_banner_slot.dart';
 import 'discover_screen.dart';
 import 'explore_screen.dart';
 import 'library_screen.dart';
@@ -48,13 +50,22 @@ class _HomeShellState extends State<HomeShell> {
             _visited.contains(i) ? _screens[i] : const SizedBox.shrink(),
         ],
       ),
-      bottomNavigationBar: _NavBar(
-        index: _index,
-        items: _items,
-        onTap: (i) => setState(() {
-          _index = i;
-          _visited.add(i);
-        }),
+      bottomNavigationBar: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _NavBar(
+            index: _index,
+            items: _items,
+            onTap: (i) {
+              AdGate.onTap();
+              setState(() {
+                _index = i;
+                _visited.add(i);
+              });
+            },
+          ),
+          const AdBannerSlot(slot: 'home'),
+        ],
       ),
     );
   }

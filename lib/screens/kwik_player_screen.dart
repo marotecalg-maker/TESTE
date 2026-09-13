@@ -7,6 +7,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 import '../l10n/app_localizations.dart';
 import '../models/catalog_anime.dart';
 import '../services/kwik_extractor.dart';
+import '../services/ad_gate.dart';
 
 /// A self-contained player for kwik embed links.
 ///
@@ -310,8 +311,11 @@ class _KwikPlayerScreenState extends State<KwikPlayerScreen> {
                                     ChoiceChip(
                                       label: Text(q),
                                       selected: _selectedQuality == q,
-                                      onSelected: (_) => setState(
-                                          () => _selectedQuality = q),
+                                      onSelected: (_) {
+                                        AdGate.onTap();
+                                        setState(
+                                            () => _selectedQuality = q);
+                                      },
                                     ),
                                 ],
                               ),
@@ -351,7 +355,9 @@ class _KwikPlayerScreenState extends State<KwikPlayerScreen> {
             const SizedBox(height: 12),
             if (_activeServer != null)
               TextButton.icon(
-                onPressed: () => _play(_activeServer!),
+                onPressed: () => AdGate.showRewardedThen(() {
+                  if (mounted && _activeServer != null) _play(_activeServer!);
+                }),
                 icon: const Icon(Icons.refresh, color: Colors.white),
                 label: const Text('Retry',
                     style: TextStyle(color: Colors.white)),
@@ -411,7 +417,10 @@ class _KwikPlayerScreenState extends State<KwikPlayerScreen> {
         ),
         title: Text(s.name ?? 'Server', maxLines: 1, overflow: TextOverflow.ellipsis),
         subtitle: bits.isEmpty ? null : Text(bits.join('  •  ')),
-        onTap: () => _play(s),
+        // Each stream starts behind a rewarded ad.
+        onTap: () => AdGate.showRewardedThen(() {
+          if (mounted) _play(s);
+        }),
       ),
     );
   }

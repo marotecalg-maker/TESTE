@@ -16,6 +16,13 @@ abstract class Ads {
   void showInterstitialAd();
 
   Future<void> loadRewardAd();
+
+  /// Shows a rewarded ad if one is loaded, then runs [rewarded].
+  ///
+  /// [rewarded] is a continuation, not proof the user watched: every network
+  /// must call it exactly once — after the ad closes, or immediately when no
+  /// ad is available — so callers can gate an action on it without ever
+  /// leaving the user stuck.
   void showRewardAd(Function rewarded);
 
   Future<void> loadNativeAd(

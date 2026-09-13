@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import '../l10n/app_localizations.dart';
 import '../models/anime.dart';
 import '../models/watch_status.dart';
+import '../services/ad_gate.dart';
 import '../services/jikan_api.dart';
 import '../services/library_service.dart';
 import '../theme/app_theme.dart';
@@ -184,7 +185,10 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
         icon: Icons.wifi_off_rounded,
         title: l.t('conn_trouble'),
         subtitle: l.t('conn_trouble_sub'),
-        onTap: () => _loadBatch(initial: true),
+        onTap: () {
+          AdGate.onTap();
+          _loadBatch(initial: true);
+        },
       );
     }
     if (_cards.isEmpty) {
@@ -192,7 +196,10 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
         icon: Icons.done_all_rounded,
         title: l.t('caught_up'),
         subtitle: l.t('caught_up_sub'),
-        onTap: () => _loadBatch(initial: true),
+        onTap: () {
+          AdGate.onTap();
+          _loadBatch(initial: true);
+        },
       );
     }
     return CardSwiper(
@@ -228,14 +235,20 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
             icon: Icons.close_rounded,
             color: AppColors.danger,
             size: 58,
-            onTap: () => _controller.swipe(CardSwiperDirection.left),
+            onTap: () {
+              AdGate.onTap();
+              _controller.swipe(CardSwiperDirection.left);
+            },
           ),
           const SizedBox(width: 18),
           _ActionButton(
             icon: Icons.favorite_rounded,
             color: AppColors.accent,
             size: 46,
-            onTap: () => _controller.swipe(CardSwiperDirection.top),
+            onTap: () {
+              AdGate.onTap();
+              _controller.swipe(CardSwiperDirection.top);
+            },
           ),
           const SizedBox(width: 18),
           _ActionButton(
@@ -245,6 +258,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
             onTap: () {
               if (_cards.isEmpty) return;
               // Open detail for the visually top-most card.
+              AdGate.onTap();
               Navigator.of(context).push(MaterialPageRoute(
                   builder: (_) => AnimeDetailScreen(anime: _cards.first)));
             },
@@ -254,7 +268,10 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
             icon: Icons.bookmark_added_rounded,
             color: AppColors.success,
             size: 58,
-            onTap: () => _controller.swipe(CardSwiperDirection.right),
+            onTap: () {
+              AdGate.onTap();
+              _controller.swipe(CardSwiperDirection.right);
+            },
           ),
         ],
       ),

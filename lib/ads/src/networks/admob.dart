@@ -227,6 +227,7 @@ class AdmobAD extends Ads {
     if (_rewardedAd == null) {
       Log.log('Admob >> Warning: attempt to show rewarded before loaded.');
       loadRewardAd();
+      rewarded();
       return;
     }
     _rewardedAd!.fullScreenContentCallback = FullScreenContentCallback(

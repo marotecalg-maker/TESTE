@@ -202,6 +202,7 @@ class ApplovinAD extends Ads {
       loadRewardAd();
     } else {
       loadRewardAd();
+      rewarded();
     }
   }
 }

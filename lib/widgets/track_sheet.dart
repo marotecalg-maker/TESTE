@@ -6,6 +6,7 @@ import '../models/anime.dart';
 import '../models/tracked_anime.dart';
 import '../models/watch_status.dart';
 import '../services/library_service.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
 import 'network_poster.dart';
 import 'ui_kit.dart';
@@ -107,7 +108,10 @@ class _TrackSheet extends StatelessWidget {
                         ? AppColors.accent
                         : AppColors.textMid,
                   ),
-                  onPressed: () => lib.toggleFavorite(anime.id),
+                  onPressed: () {
+                    AdGate.onTap();
+                    lib.toggleFavorite(anime.id);
+                  },
                 ),
             ],
           ),
@@ -126,7 +130,10 @@ class _TrackSheet extends StatelessWidget {
                 _StatusPill(
                   status: s,
                   selected: tracked?.status == s,
-                  onTap: () => lib.addFromAnime(anime, s),
+                  onTap: () {
+                    AdGate.onTap();
+                    lib.addFromAnime(anime, s);
+                  },
                 ),
             ],
           ),
@@ -142,7 +149,10 @@ class _TrackSheet extends StatelessWidget {
                   child: BrandButton(
                     label: l.t('ts_done'),
                     icon: Icons.check_rounded,
-                    onTap: () => Navigator.pop(context),
+                    onTap: () {
+                      AdGate.onTap();
+                      Navigator.pop(context);
+                    },
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -239,7 +249,10 @@ class _ProgressControl extends StatelessWidget {
           children: [
             _RoundIcon(
               icon: Icons.remove_rounded,
-              onTap: () => lib.setProgress(tracked.id, tracked.progress - 1),
+              onTap: () {
+                AdGate.onTap();
+                lib.setProgress(tracked.id, tracked.progress - 1);
+              },
             ),
             const SizedBox(width: 14),
             Expanded(
@@ -257,7 +270,10 @@ class _ProgressControl extends StatelessWidget {
             const SizedBox(width: 14),
             _RoundIcon(
               icon: Icons.add_rounded,
-              onTap: () => lib.incrementProgress(tracked.id),
+              onTap: () {
+                AdGate.onTap();
+                lib.incrementProgress(tracked.id);
+              },
             ),
           ],
         ),
@@ -323,8 +339,11 @@ class _RatingControl extends StatelessWidget {
             for (int i = 1; i <= 10; i++)
               Expanded(
                 child: GestureDetector(
-                  onTap: () => lib.setRating(
-                      tracked.id, i == tracked.userRating ? 0 : i.toDouble()),
+                  onTap: () {
+                    AdGate.onTap();
+                    lib.setRating(tracked.id,
+                        i == tracked.userRating ? 0 : i.toDouble());
+                  },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 4),
                     child: Icon(
@@ -354,6 +373,7 @@ class _RemoveButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
+        AdGate.onTap();
         context.read<LibraryService>().remove(id);
         Navigator.pop(context);
       },

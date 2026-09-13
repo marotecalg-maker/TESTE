@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 import '../ads/src/multi_ads_factory.dart';
+import '../config/app_config.dart' show AppConfig;
 import '../const.dart';
 import 'home_shell.dart';
 
@@ -28,9 +29,14 @@ class _LoadingScreenState extends State<LoadingScreen> {
       var url = Uri.parse(Constants.jsonConfigUrl);
       var response = await http.get(url);
       if (response.statusCode == 200) {
+        // Same document carries the app flags (quotes, nbrAllow, ...) under
+        // "config"; the gate decides whether streaming is shown this session.
+        AppConfig.applyBody(response.body);
+        await AppConfig.resolve();
         gAds = MultiAds(response.body);
         await gAds.init();
         await gAds.loadAds();
+        gAdsReady = true;
 
         isInterShowed = false;
         if (!mounted) return;

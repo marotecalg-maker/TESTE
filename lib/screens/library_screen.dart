@@ -5,6 +5,7 @@ import '../l10n/app_localizations.dart';
 import '../models/tracked_anime.dart';
 import '../models/watch_status.dart';
 import '../services/library_service.dart';
+import '../services/ad_gate.dart';
 import '../theme/app_theme.dart';
 import '../widgets/network_poster.dart';
 import '../widgets/track_sheet.dart';
@@ -73,13 +74,19 @@ class _LibraryScreenState extends State<LibraryScreen> {
         children: [
           GenreChip(l.t('filter_all'),
               selected: _filter == null,
-              onTap: () => setState(() => _filter = null)),
+              onTap: () {
+                AdGate.onTap();
+                setState(() => _filter = null);
+              }),
           for (final s in WatchStatus.values) ...[
             const SizedBox(width: 8),
             GenreChip(
               '${l.status(s, short: true)} ${lib.countByStatus(s)}',
               selected: _filter == s,
-              onTap: () => setState(() => _filter = s),
+              onTap: () {
+                AdGate.onTap();
+                setState(() => _filter = s);
+              },
             ),
           ],
         ],
@@ -121,7 +128,10 @@ class _LibraryRow extends StatelessWidget {
     final lib = context.read<LibraryService>();
     final total = tracked.totalEpisodes;
     return GestureDetector(
-      onTap: () => showTrackSheet(context, animeFromTracked(tracked)),
+      onTap: () {
+        AdGate.onTap();
+        showTrackSheet(context, animeFromTracked(tracked));
+      },
       child: Container(
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
@@ -204,7 +214,10 @@ class _LibraryRow extends StatelessWidget {
             if (tracked.status == WatchStatus.watching ||
                 tracked.status == WatchStatus.planned)
               GestureDetector(
-                onTap: () => lib.incrementProgress(tracked.id),
+                onTap: () {
+                  AdGate.onTap();
+                  lib.incrementProgress(tracked.id);
+                },
                 child: Container(
                   width: 40,
                   height: 40,
